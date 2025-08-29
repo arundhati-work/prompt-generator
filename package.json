@@ -12,20 +12,20 @@
     "deploy": "npm run build && echo 'Build complete! Ready for deployment.'"
   },
   "dependencies": {
+    "next": "^14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "15.2.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3.2.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "tailwindcss": "^3.4.0",
-    "postcss": "^8.4.0",
     "autoprefixer": "^10.4.0",
     "eslint": "^8",
     "eslint-config-next": "15.2.4",
-    "@eslint/eslintrc": "^3.2.0"
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5"
   }
 }

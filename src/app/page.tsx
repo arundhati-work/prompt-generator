@@ -222,7 +222,7 @@ Use ${formData.colorScheme} colors and a ${formData.designStyle} design style.`;
                           : 'border-gray-200 hover:border-gray-300 hover:bg-white/70'
                       }`}
                     >
-                                             <div className="text-sm font-medium text-gray-900 mb-2">
+                    <div className="text-sm font-medium text-gray-900 mb-2">
                          {option.name}
                        </div>
                       {option.colors.length > 0 && (
